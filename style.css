@@ -1,0 +1,108 @@
+/* Général */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-bg {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Bannière */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.banner-text {
+    flex: 1;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section About */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Section What I Do */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
